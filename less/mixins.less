@@ -1,0 +1,48 @@
+// Mixins Here
+
+.flex-mix(@justify: center, @align: center, @direction: row){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-direction: @direction;
+}
+
+.navigation() {
+    
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    a{
+        text-decoration: none;
+        color: black;
+        //display: inline-block;
+        margin-right: 1.5rem;
+        margin-top: 1rem;
+
+    }
+    
+
+}
+
+.h1-heading{
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.button(@bg-color, @color, @width){
+    width: @width;
+    background-color: @bg-color;
+    color: @color;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    padding: 8px 1.6rem;
+
+    
+    
+
+
+
+
+}

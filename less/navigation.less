@@ -1,0 +1,41 @@
+// Navigation code here
+
+.header-top{
+    .flex-mix(@justify: space-between);
+    width: 90%;
+    margin: 50px auto;
+    
+    
+
+    .nav-items{
+        width: 60%;
+        .flex-mix(@justify: space-between);
+        .navigation();
+        transition: all 0.5s;
+        
+        a:hover{
+         background-color: @main-tangerine;
+         padding: 1.5rem 2rem;
+         border-radius: 10px;
+         color: white;
+         box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+    
+        }
+
+        p{
+            margin-right: 2rem;
+            font-size: 3rem;
+            font-weight: 700;
+
+        }
+
+        .nav{
+            
+            .flex-mix();
+            flex-wrap: wrap;
+            
+            
+        }
+        
+    }
+}
