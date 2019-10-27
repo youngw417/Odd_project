@@ -215,6 +215,11 @@ p {
   opacity: 1;
   background-color: white;
 }
+@media (max-width: 600px) {
+  .section-story .story-container .story-con__each-1 {
+    position: relative;
+  }
+}
 .section-story .story-container .story-con__each-2 {
   background-color: #1c35c6;
   color: white;
@@ -224,7 +229,8 @@ p {
   left: 5rem;
   z-index: 50;
 }
-.section-story .story-container .story-con__each-2:hover {
+.section-story .story-container .story-con__each-2:hover,
+.section-story .story-container .story-con__each-2:active {
   z-index: 200;
 }
 .section-story .story-container .story-con__each-2 a {
@@ -238,7 +244,8 @@ p {
   top: -15rem;
   left: 10rem;
 }
-.section-story .story-container .story-con__each-3:hover {
+.section-story .story-container .story-con__each-3:hover,
+.section-story .story-container .story-con__each-3:active {
   z-index: 200;
 }
 .section-story .story-container .story-con__each-3 ul li {

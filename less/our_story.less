@@ -52,6 +52,9 @@
                 z-index: 100;
                 opacity: 1;
                 background-color: white;
+                @media @phone{
+                    position: relative;
+                }
             }
 
             &-2{
@@ -63,7 +66,7 @@
                 left: 5rem;
                 z-index: 50;
 
-                &:hover{
+                &:hover, &:active{
                     z-index: 200;
                 }
 
@@ -80,7 +83,7 @@
                 top: -15rem;
                 left: 10rem;
 
-                &:hover{
+                &:hover, &:active{
                     z-index: 200;
                 }
                 ul li{
