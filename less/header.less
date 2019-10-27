@@ -12,28 +12,28 @@
 .main-header{
     width: 100%;
     margin: 0 auto;
-    .top-grey{
-        background-color: @header-grey;
-        height: 5vh;
-        //padding: 1rem 0 1rem 4rem;
-        padding-left: 4rem;
-        padding-top: 0.7rem;
+    // .top-grey{
+    //     background-color: @header-grey;
+    //     height: 5vh;
+    //     //padding: 1rem 0 1rem 4rem;
+    //     padding-left: 4rem;
+    //     padding-top: 0.7rem;
 
         
-        .dots{
-            background-color: @header-grey-dark;
-            margin: .8rem 0.4rem;
-            padding: 0.7rem;
-            max-width: 2%;
-            height: 2rem;
+    //     .dots{
+    //         background-color: @header-grey-dark;
+    //         margin: .8rem 0.4rem;
+    //         padding: 0.7rem;
+    //         max-width: 2%;
+    //         height: 2rem;
             
-            border-radius:  50%;
-            display: inline-block;
+    //         border-radius:  50%;
+    //         display: inline-block;
 
 
 
-        }
-    }
+    //     }
+    // }
 
     
 
@@ -42,8 +42,17 @@
         width: 90%;
         margin: 100px auto;
 
+        @media @phone{
+            .flex-mix(@direction: column);
+        }
+
+
         .cont{
             width: 50%;
+            @media @phone{
+                width: 80%;
+                
+            }
             
             &--img{
                 background-image: url(../img/group.png);
@@ -51,6 +60,10 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
+
+               @media @phone{
+                   height: 40vh;
+               }
             }
     
 
@@ -59,6 +72,10 @@
                 height: 60vh;
                 padding: 4rem;
                 padding-top: 6rem;
+
+                @media @phone{
+                    height: 40vh;
+                }
              
                 &--blue{
                     background-color: @main-blue;
