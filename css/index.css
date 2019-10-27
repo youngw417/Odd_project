@@ -181,6 +181,11 @@ p {
     height: 60vh;
   }
 }
+@media (max-width: 600px) {
+  .section-story .story-container .story-con {
+    height: 140vh;
+  }
+}
 .section-story .story-container .story-con__heading {
   margin-bottom: 1rem;
 }
@@ -218,6 +223,10 @@ p {
 @media (max-width: 600px) {
   .section-story .story-container .story-con__each-1 {
     position: relative;
+    top: -150px;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 .section-story .story-container .story-con__each-2 {
@@ -229,8 +238,17 @@ p {
   left: 5rem;
   z-index: 50;
 }
-.section-story .story-container .story-con__each-2:hover,
-.section-story .story-container .story-con__each-2:active {
+@media (max-width: 600px) {
+  .section-story .story-container .story-con__each-2 {
+    position: relative;
+    top: -130px;
+    left: -0.1rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.section-story .story-container .story-con__each-2:hover {
   z-index: 200;
 }
 .section-story .story-container .story-con__each-2 a {
@@ -244,8 +262,17 @@ p {
   top: -15rem;
   left: 10rem;
 }
-.section-story .story-container .story-con__each-3:hover,
-.section-story .story-container .story-con__each-3:active {
+@media (max-width: 600px) {
+  .section-story .story-container .story-con__each-3 {
+    position: relative;
+    top: -110px;
+    left: -0.1rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+.section-story .story-container .story-con__each-3:hover {
   z-index: 200;
 }
 .section-story .story-container .story-con__each-3 ul li {
@@ -278,6 +305,11 @@ p {
   position: absolute;
   top: 10rem;
   left: 6rem;
+}
+@media (max-width: 600px) {
+  .section-story .story-container .story-con__each__heading:after {
+    display: none;
+  }
 }
 .section-story .story-container .story-con__each__heading--2:after,
 .section-story .story-container .story-con__each__heading--3:after {
@@ -356,6 +388,11 @@ p {
   top: 8rem;
   left: 1rem;
 }
+@media (max-width: 600px) {
+  .section-story .story-container .inAction p:after {
+    display: none;
+  }
+}
 .section-story .story-container .inAction .inaction__imgs {
   margin-top: 5rem;
   display: flex;
@@ -369,6 +406,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
   }
 }
 .section-story .story-container .inAction .inaction__imgs-each {
@@ -377,7 +415,7 @@ p {
 }
 @media (max-width: 600px) {
   .section-story .story-container .inAction .inaction__imgs-each {
-    width: 80%;
+    width: 100%;
   }
 }
 .section-story .story-container .inAction .inaction__imgs-each img {
@@ -394,8 +432,14 @@ p {
   margin-bottom: 60px;
 }
 @media (max-width: 600px) {
+  .our-work__heading {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
   .our-work__heading h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-bottom: 10px;
   }
 }
 .our-work .video-wrapper {
@@ -423,7 +467,7 @@ p {
 }
 @media (max-width: 600px) {
   .header-top .logo1 {
-    width: 20rem;
+    width: 100%;
   }
 }
 .header-top .nav-items {
@@ -441,6 +485,11 @@ p {
   color: black;
   margin-right: 1.5rem;
   margin-top: 1rem;
+}
+@media (max-width: 600px) {
+  .header-top .nav-items a {
+    width: 50%;
+  }
 }
 .header-top .nav-items a:hover {
   background-color: #ed7c00;

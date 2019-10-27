@@ -8,7 +8,7 @@
     .logo1{
         @media @phone{
         
-            width: 20rem;
+            width: 100%;
         } 
     }
    
@@ -19,7 +19,12 @@
         .flex-mix(@justify: space-between);
         .navigation();
         transition: all 0.5s;
-        
+
+        @media @phone{
+            a{
+                width: 50%;
+            }
+        }
         a:hover{
          background-color: @main-tangerine;
          padding: 1.5rem 2rem;

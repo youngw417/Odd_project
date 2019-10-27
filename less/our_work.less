@@ -2,14 +2,26 @@
     width: 65%;
     margin: 0 auto;
     margin-bottom: 100px;
+
+    // @media @phone{
+    //     margin-bottom: 0px;
+    //  }
+
+
     position: relative;
     &__heading{
         text-align: center;
         margin-bottom: 60px;
 
+
+        @media @phone{
+            margin-bottom: 20px;
+        }
+
         h1{
             @media @phone{
-                font-size: 3rem;
+                font-size: 2rem;
+                margin-bottom: 10px;
             }
         }
 

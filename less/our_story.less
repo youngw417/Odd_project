@@ -13,9 +13,9 @@
             height: 60vh;
 
         }
-        // @media @phone{
-        //     height: 70vh;
-        // }
+        @media @phone{
+            height: 140vh;
+        }
 
         &__heading{
             margin-bottom: 1rem;
@@ -54,6 +54,10 @@
                 background-color: white;
                 @media @phone{
                     position: relative;
+                    top: -150px;
+                    width: 100%;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
                 }
             }
 
@@ -66,13 +70,24 @@
                 left: 5rem;
                 z-index: 50;
 
-                &:hover, &:active{
+                @media @phone{
+                    position: relative;
+                    top: -130px;
+                    left: -.1rem;
+                    width: 100%;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                }
+            
+
+                &:hover{
                     z-index: 200;
                 }
 
                 a{
                     color: white;
                 }
+
             }
 
             &-3{
@@ -83,7 +98,17 @@
                 top: -15rem;
                 left: 10rem;
 
-                &:hover, &:active{
+                @media @phone{
+                    position: relative;
+                    top:-110px;
+                    left: -.1rem;
+                    width: 100%;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                }
+            
+
+                &:hover{
                     z-index: 200;
                 }
                 ul li{
@@ -117,9 +142,9 @@
                     top: 10rem;
                     left: 6rem;
 
-                    // @media @tablet{
-                    //    top: 10rem;
-                    // }
+                    @media @phone{
+                       display: none;
+                    }
                 }
                 &--2, &--3{
                     &:after{
@@ -222,6 +247,9 @@
                     position: absolute;
                     top: 8rem;
                     left: 1rem;
+                    @media @phone{
+                        display: none;
+                     }
                 }
 
         .inaction__imgs{
@@ -230,6 +258,8 @@
             
             @media @phone{
                 .flex-mix(@direction: column);
+                width: 100%;
+                
               
             }
 
@@ -238,7 +268,7 @@
                 overflow: hidden;
 
                 @media @phone{
-                    width: 80%;
+                    width: 100%;
                   
                 }
     
