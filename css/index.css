@@ -250,9 +250,6 @@ p {
     padding-right: 2rem;
   }
 }
-.section-story .story-container .story-con__each-2:hover {
-  z-index: 200;
-}
 .section-story .story-container .story-con__each-2 a {
   color: white;
 }
@@ -281,9 +278,6 @@ p {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-}
-.section-story .story-container .story-con__each-3:hover {
-  z-index: 200;
 }
 .section-story .story-container .story-con__each-3 ul li {
   font-size: 2.5rem;
