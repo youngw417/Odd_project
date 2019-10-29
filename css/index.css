@@ -176,7 +176,7 @@ p {
   position: relative;
   border-bottom: 4px solid #d5daf4;
 }
-@media (max-width: 900px) {
+@media (min-width: 1200px) {
   .section-story .story-container .story-con {
     height: 60vh;
   }
@@ -200,16 +200,18 @@ p {
   }
 }
 .section-story .story-container .story-con__each {
-  width: 80%;
+  max-width: 500px;
   margin: 0 auto;
   border: 1px solid black;
   padding: 5rem 6rem;
   position: relative;
-  height: 40vh;
+  height: auto;
 }
-@media (max-width: 900px) {
+@media (min-width: 1200px) {
   .section-story .story-container .story-con__each {
-    height: 50vh;
+    max-width: 700px;
+    height: 500px;
+    margin-left: 15rem;
   }
 }
 .section-story .story-container .story-con__each-1 {
@@ -261,6 +263,14 @@ p {
   position: absolute;
   top: -15rem;
   left: 10rem;
+}
+.section-story .story-container .story-con__each-3 h1 {
+  width: 400px;
+}
+@media (min-width: 1200px) {
+  .section-story .story-container .story-con__each-3 h1 {
+    width: 600px;
+  }
 }
 @media (max-width: 600px) {
   .section-story .story-container .story-con__each-3 {
@@ -424,7 +434,7 @@ p {
 .our-work {
   width: 65%;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
   position: relative;
 }
 .our-work__heading {
@@ -471,9 +481,9 @@ p {
   }
 }
 .header-top .nav-items {
-  width: 60%;
+  width: 40%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: row;
   text-transform: uppercase;
@@ -513,6 +523,7 @@ p {
 .main-header {
   width: 100%;
   margin: 0 auto;
+  height: 90vh;
 }
 .main-header .header-container {
   display: flex;
