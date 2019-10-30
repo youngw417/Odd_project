@@ -431,6 +431,12 @@ p {
   margin-bottom: 300px;
   position: relative;
 }
+@media (max-width: 600px) {
+  .our-work {
+    padding-top: 50px;
+    margin-bottom: 0px;
+  }
+}
 .our-work__heading {
   text-align: center;
   margin-bottom: 60px;
