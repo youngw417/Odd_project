@@ -517,7 +517,6 @@ p {
 .main-header {
   width: 100%;
   margin: 0 auto;
-  height: 90vh;
 }
 .main-header .header-container {
   display: flex;
@@ -541,6 +540,7 @@ p {
 @media (max-width: 600px) {
   .main-header .header-container .cont {
     width: 80%;
+    height: 80vh;
   }
 }
 .main-header .header-container .cont--img {
