@@ -172,13 +172,13 @@ p {
 .section-story .story-container .story-con {
   width: 80%;
   margin: 10rem 20rem 5rem 20rem;
-  height: 55vh;
+  height: 90vh;
   position: relative;
   border-bottom: 4px solid #d5daf4;
 }
 @media (min-width: 1200px) {
   .section-story .story-container .story-con {
-    height: 60vh;
+    height: 100vh;
   }
 }
 @media (max-width: 600px) {
@@ -433,8 +433,8 @@ p {
 }
 @media (max-width: 600px) {
   .our-work {
-    padding-top: 50px;
     margin-bottom: 0px;
+    height: 60vh;
   }
 }
 .our-work__heading {
@@ -546,7 +546,6 @@ p {
 @media (max-width: 600px) {
   .main-header .header-container .cont {
     width: 80%;
-    height: 80vh;
   }
 }
 .main-header .header-container .cont--img {
