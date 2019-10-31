@@ -5,7 +5,7 @@
     .story-con{
         width: 80%;
         margin: 10rem 20rem 5rem 20rem;
-        height: 90vh;
+        height: 60vh;
         position: relative;
         border-bottom: 4px solid @bg-light-blue;
         //padding-bottom: 10rem;
@@ -13,9 +13,9 @@
         //     height: 0vh;
 
         //}
-        @media @pc{
-            height: 100vh;
-        }
+        // @media @pc{
+        //     height: 7-vh;
+        // }
         @media @phone{
             height: 140vh;
         }
@@ -77,6 +77,10 @@
                     padding-left: 2rem;
                     padding-right: 2rem;
                 }
+
+                &:hover{
+                    cursor: pointer;
+                }
             }
 
             &-2{
@@ -98,12 +102,14 @@
                 }
             
 
-                // &:hover{
-                //     z-index: 200;
-                // }
+                &:hover{
+                    cursor: pointer;
+                }
 
                 a{
                     color: white;
+                    
+                    
                 }
 
             }
@@ -115,6 +121,10 @@
                 position: absolute;
                 top: -15rem;
                 left: 10rem;
+
+                &:hover{
+                    cursor: pointer;
+                }
                  h1{
                      width: 400px;
                      @media @pc {
@@ -279,7 +289,10 @@
 
         .inaction__imgs{
             margin-top: 5rem;
-            .flex-mix();
+            .flex-mix(@justify: space-around);
+           // width: 25%;
+            overflow: hidden;
+            
             
             @media @phone{
                 .flex-mix(@direction: column);
@@ -288,26 +301,29 @@
               
             }
 
-            &-each{
-                width: 25%;
-                overflow: hidden;
+            // &-each{
+            //     width: 25%;
+            //     overflow: hidden;
 
-                @media @phone{
-                    width: 100%;
+
+            //     @media @phone{
+            //         width: 100%;
+            //         align-self: center;
+                    
                   
-                }
+            //     }
     
                 
-                img{
-                   // width: 100%;
-                    height:23vh;
+                // img{
+                //    // width: 100%;
+                //     height:23vh;
                   
                     
                     
 
-                }
+                // }
                
-            }
+            
 
         }
     }

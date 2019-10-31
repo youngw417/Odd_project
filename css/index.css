@@ -172,14 +172,9 @@ p {
 .section-story .story-container .story-con {
   width: 80%;
   margin: 10rem 20rem 5rem 20rem;
-  height: 90vh;
+  height: 60vh;
   position: relative;
   border-bottom: 4px solid #d5daf4;
-}
-@media (min-width: 1200px) {
-  .section-story .story-container .story-con {
-    height: 100vh;
-  }
 }
 @media (max-width: 600px) {
   .section-story .story-container .story-con {
@@ -231,6 +226,9 @@ p {
     padding-right: 2rem;
   }
 }
+.section-story .story-container .story-con__each-1:hover {
+  cursor: pointer;
+}
 .section-story .story-container .story-con__each-2 {
   background-color: #1c35c6;
   color: white;
@@ -250,6 +248,9 @@ p {
     padding-right: 2rem;
   }
 }
+.section-story .story-container .story-con__each-2:hover {
+  cursor: pointer;
+}
 .section-story .story-container .story-con__each-2 a {
   color: white;
 }
@@ -260,6 +261,9 @@ p {
   position: absolute;
   top: -15rem;
   left: 10rem;
+}
+.section-story .story-container .story-con__each-3:hover {
+  cursor: pointer;
 }
 .section-story .story-container .story-con__each-3 h1 {
   width: 400px;
@@ -400,9 +404,10 @@ p {
 .section-story .story-container .inAction .inaction__imgs {
   margin-top: 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  overflow: hidden;
 }
 @media (max-width: 600px) {
   .section-story .story-container .inAction .inaction__imgs {
@@ -412,18 +417,6 @@ p {
     flex-direction: column;
     width: 100%;
   }
-}
-.section-story .story-container .inAction .inaction__imgs-each {
-  width: 25%;
-  overflow: hidden;
-}
-@media (max-width: 600px) {
-  .section-story .story-container .inAction .inaction__imgs-each {
-    width: 100%;
-  }
-}
-.section-story .story-container .inAction .inaction__imgs-each img {
-  height: 23vh;
 }
 .our-work {
   width: 65%;
