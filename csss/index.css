@@ -169,12 +169,12 @@ p {
   align-items: center !important;
   flex-direction: column !important;
   padding-bottom: 10px;
-  height: 170vh;
+  height: 150vh;
 }
 .section-story .story-container .story-con {
   width: 80%;
   margin: 10rem 20rem 5rem 20rem;
-  height: 170vh;
+  height: 150vh;
   position: relative;
   border-bottom: 4px solid #d5daf4;
 }
