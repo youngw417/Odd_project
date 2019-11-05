@@ -168,17 +168,23 @@ p {
   justify-content: center !important;
   align-items: center !important;
   flex-direction: column !important;
+  height: 150vh;
 }
 .section-story .story-container .story-con {
   width: 80%;
   margin: 10rem 20rem 5rem 20rem;
-  height: 60vh;
+  height: 150vh;
   position: relative;
   border-bottom: 4px solid #d5daf4;
 }
+@media (min-width: 1200px) {
+  .section-story .story-container .story-con {
+    height: 170vh;
+  }
+}
 @media (max-width: 600px) {
   .section-story .story-container .story-con {
-    height: 140vh;
+    height: 200vh;
   }
 }
 .section-story .story-container .story-con__heading {
@@ -421,13 +427,13 @@ p {
 .our-work {
   width: 65%;
   margin: 0 auto;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
   position: relative;
 }
 @media (max-width: 600px) {
   .our-work {
     margin-bottom: 0px;
-    height: 60vh;
+    height: 120vh;
   }
 }
 .our-work__heading {
