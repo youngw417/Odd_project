@@ -1,5 +1,6 @@
 .section-story .story-container {
   .flex-mix(@direction: column) !important;
+  
 
   height: 150vh;
 
@@ -13,12 +14,12 @@
     // @media @tablet{
     //     height: 0vh;
 
-    @media @pc {
-      height: 170vh;
-    }
+    // @media @pc {
+    //   height: 200vh;
+    // }
 
     @media @phone {
-      height: 200vh;
+      height: 250vh;
     }
 
     &__heading {
@@ -46,6 +47,8 @@
       padding: 5rem 6rem;
       position: relative;
       height: auto;
+      top: -70px;
+    
 
       @media @pc {
         max-width: 700px;

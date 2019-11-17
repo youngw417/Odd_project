@@ -168,19 +168,15 @@ p {
   justify-content: center !important;
   align-items: center !important;
   flex-direction: column !important;
-  height: 180vh;
+  padding-bottom: 10px;
+  height: 150vh;
 }
 .section-story .story-container .story-con {
   width: 80%;
   margin: 10rem 20rem 5rem 20rem;
-  height: 180vh;
+  height: 150vh;
   position: relative;
   border-bottom: 4px solid #d5daf4;
-}
-@media (min-width: 1200px) {
-  .section-story .story-container .story-con {
-    height: 200vh;
-  }
 }
 @media (max-width: 600px) {
   .section-story .story-container .story-con {
